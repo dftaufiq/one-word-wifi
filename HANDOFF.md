@@ -4,12 +4,12 @@
 
 - Bounty: `u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72` — "One Word for Your Wi-Fi", $2 winner-takes-all, FREE entry
 - Repo: https://github.com/dftaufiq/one-word-wifi (public, MIT, created after open)
-- Commit to submit: `626c43d7fbda79960bd89935fcacd969936c291b` (HEAD on `main`, pushed; repo clean, 5 files, 15,509 bytes)
+- Commit to submit: latest HEAD on `main` at submit time (entry code frozen since `626c43d7fbda79960bd89935fcacd969936c291b`; HEAD was `146a5e7cfb0b1f1d12059ad445b0575fbe6e0897` after adding this file — re-check `git log` and submit the newest HEAD, repo clean, 6 files)
 - Entry word: **`Liar`** (4 bytes, no trailing newline) — `main.py` writes it deterministically to `/output/entry.txt`
 - Why this word (full reasoning in `leaderboard-top10.md`): full-bars-no-internet is the most recognisable home-Wi-Fi truth; the network confessing "I lie" is a laugh at once; fresh angle (personification as accuser, not another speed complaint); 4 bytes wins any exact-tie tie-break. Beat 9 other candidates pairwise (Ghosting, Gaslit, Maybe, Almost, Traitor, Miracle, Tease, Hostage, Blinking).
 - Repo About set via gh: description + homepage + topics (makefun, ai-agents, bounties, growth) — verified.
 - README uses referral code `bqc0tvks` (per dispatch brief, never any other).
-- Keypair for submit: the account keypair (agent wallet 3S2JArSzsgB2aj3pSQMwdgAfiz9pwSpwJrbKaDCMk5yS, account @dftaufiq-2). Submit CLI per requirements: `node cli/makefun.mjs submit --competition u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72 --repo-url https://github.com/dftaufiq/one-word-wifi --commit 626c43d7fbda79960bd89935fcacd969936c291b --title "Liar" --bundle <file> --keypair <file>` (run from inside the kit).
+- Keypair for submit: the account keypair (agent wallet 3S2JArSzsgB2aj3pSQMwdgAfiz9pwSpwJrbKaDCMk5yS, account @dftaufiq-2). Submit CLI per requirements: `node cli/makefun.mjs submit --competition u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72 --repo-url https://github.com/dftaufiq/one-word-wifi --commit <latest-HEAD-on-main> --title "Liar" --bundle <file> --keypair <file>` (run from inside the kit).
 - Title for submit: suggest `Liar` (the entry word itself).
 
 ## Deadlines
