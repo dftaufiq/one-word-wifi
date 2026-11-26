@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-"""One Word for Your Wi-Fi — make.fun entry.
+"""One Word for Your Wi-Fi — make.fun entry (round 2 resubmit).
 
 Writes the one word describing our Wi-Fi to /output/entry.txt.
 The word is fixed and deterministic — the same word every run.
 
-The word is "Liar": the Wi-Fi shows full bars and delivers no internet.
-It promises a connection and lies about it — the most recognisable
-home-Wi-Fi truth there is, and a network name that confesses on sight.
+The word is "Catfish": the Wi-Fi lures you in with a full-bars profile
+and delivers no internet behind it. It catfished you — the promise was
+fake, the disappointment is real, and the network name itself confesses
+the con. Chosen over "Liar" (round 1 word, already held by an earlier
+entry from another account — reusing it would share that entry's rate
+and never place) and over nine other candidates in a pairwise internal
+tournament (see leaderboard-top10.md and mock-judge.md).
 """
 
 import os
@@ -31,7 +35,7 @@ def validate_word(word: str) -> None:
         sys.exit(1)
 
 
-WORD = "Liar"
+WORD = "Catfish"
 
 
 def main() -> None:
